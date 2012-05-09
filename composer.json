@@ -1,0 +1,32 @@
+{
+    "name": "brikou/zend_amf",
+    "type": "library",
+    "description": "",
+    "description": "Zend Framework Amf Library",
+    "keywords": [
+        "zend framework",
+        "amf"
+    ],
+    "homepage": "https://github.com/brikou/zend_amf",
+    "license": "Zend Framework",
+    "authors": [
+        {
+            "name": "Zend Technologies USA, Inc.",
+            "homepage": "http://framework.zend.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "brikou/zend_acl": "*",
+        "brikou/zend_authentication": "*",
+        "brikou/zend_code": "*",
+        "brikou/zend_date": "*",
+        "brikou/zend_loader": "*",
+        "brikou/zend_server": "*",
+        "brikou/zend_session": "*",
+        "brikou/zend_xml-rpc": "*"
+    },
+    "autoload": {
+        "psr-0": { "Zend\\Amf": "" }
+    }
+}
